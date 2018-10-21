@@ -1,0 +1,20 @@
+.c-navigation {
+
+}
+
+  .c-navigation__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+    .c-navigation__item {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+    }
+
+      .c-navigation__link {
+        display: block;
+        padding: rem(5px 10px);
+      }

@@ -1,0 +1,30 @@
+///* ========================================================================
+//   #CONFIG
+//   ======================================================================== */
+
+// A map of global config settings. Define any project-level configuration,
+// feature switches, etc. in here.
+
+// $inuit-config: (
+//   env: dev,
+//   healthcheck: false,
+//   debug: true,
+// );
+
+// You can access data in this map using the following function:
+//
+// inuit-config(<key>)
+//
+// Example usage:
+//
+// @if (inuit-config(debug) == true) { ...  }
+
+// @function inuit-config($key) {
+//   @return map-get($inuit-config, $key);
+// }
+
+$config-font-size: 14;
+$config-line-height: 18;
+$inuit-global-font-size: $config-font-size * 1px;
+$inuit-global-line-height: $config-line-height * 1px;
+$inuit-global-baseline: 5px;

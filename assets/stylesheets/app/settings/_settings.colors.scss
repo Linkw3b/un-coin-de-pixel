@@ -1,0 +1,27 @@
+///* ========================================================================
+//   #COLORS
+//   ======================================================================== */
+
+$global-color-bluegem: #410fa1;
+$global-color-turquoise: #50e3c2;
+$global-color-white: #fff;
+
+$global-color-background: $global-color-bluegem;
+$global-color-foreground: $global-color-white;
+
+$global-color-primary: $global-color-bluegem;
+$global-color-secondary: $global-color-turquoise;
+
+$global-colors-properties: (
+  "border": "border-color",
+  "background": "background-color",
+  "color": "color",
+);
+
+$global-colors-variants: (
+  "-primary": $global-color-primary,
+  "-secondary": $global-color-secondary,
+  "-bluegem": $global-color-bluegem,
+  "-turquoise": $global-color-turquoise,
+  "-white": $global-color-white,
+);

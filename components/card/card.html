@@ -1,0 +1,10 @@
+<div class="c-card">
+  <picture v-if="picture" class="c-card__picture">
+    <img :src="picture" alt="" />
+  </picture>
+  <h3 v-if="title" class="c-card__title">
+    <a v-if="link" :href="link">{{ title }}</a>
+    <span v-else>{{ title }}</span>
+  </h3>
+  <p v-if="text" class="c-card__text">{{ text }}</p>
+</div>

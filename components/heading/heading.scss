@@ -1,0 +1,26 @@
+$heading-font-size: 12px;
+$heading-font-size-desktop: 20px;
+
+.c-heading {
+  font-family: $global-font-secondary;
+  @include font-size($heading-font-size, 20px);
+  text-align: center;
+}
+
+  .c-heading__title {
+    font-size: em(24px, $heading-font-size);
+    line-height: 29/24;
+  }
+
+@include mq($from: large) {
+  .c-heading {
+    font-family: $global-font-secondary;
+    @include font-size($heading-font-size-desktop, 24px);
+    text-align: center;
+  }
+
+    .c-heading__title {
+      font-size: em(60px, $heading-font-size-desktop);
+      line-height: 72/60;
+    }
+}

@@ -1,0 +1,18 @@
+/* ==========================================================================
+   #COLORS
+   ========================================================================== */
+
+/**
+ * Color utilities.
+ */
+
+$global-colors-properties: () !default;
+$global-colors-variants: () !default;
+
+@each $selector, $property in $global-colors-properties {
+  @each $color, $value in $global-colors-variants {
+    .u-#{$selector}#{$color} {
+      #{$property}: $value !important;
+    }
+  }
+}

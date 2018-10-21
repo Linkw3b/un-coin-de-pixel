@@ -1,0 +1,38 @@
+{
+  "name": "un-coin-de-pixel",
+  "version": "1.0.0",
+  "description": "Un coin de pixel project",
+  "author": "Manuel Taraud <manuel.taraud@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "svg": "svg-symbols assets/images/symbols/ > assets/images/symbols.svg",
+    "svg:watch": "svg && chokidar assets/symbols/*.svg -c 'npm run -s svg'",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@storybook/vue": "^3.4.11",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "inuitcss": "^6.0.0",
+    "node-sass": "^4.9.3",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "sass-em": "^1.0.3",
+    "sass-loader": "^7.1.0",
+    "sass-mq": "^5.0.0",
+    "sass-rem": "^2.0.1",
+    "svg-symbols": "^1.0.4",
+    "vue-style-loader": "^4.1.2"
+  }
+}

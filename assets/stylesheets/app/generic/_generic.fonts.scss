@@ -1,0 +1,13 @@
+/* ==========================================================================
+   #FONTS
+   ========================================================================== */
+
+@include font-face("Cabin", "cabin-regular", $global-font-regular, normal);
+@include font-face("Cabin", "cabin-italic", $global-font-regular, italic);
+@include font-face("Cabin", "cabin-medium", $global-font-medium, normal);
+@include font-face("Cabin", "cabin-mediumitalic", $global-font-medium, italic);
+@include font-face("Cabin", "cabin-semibold", $global-font-semibold, normal);
+@include font-face("Cabin", "cabin-semibolditalic", $global-font-semibold, italic);
+@include font-face("Cabin", "cabin-bold", $global-font-bold, normal);
+@include font-face("Cabin", "cabin-bolditalic", $global-font-bold, italic);
+@include font-face("KronaOne", "kronaone-regular", $global-font-regular, italic);
